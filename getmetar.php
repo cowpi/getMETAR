@@ -16,11 +16,13 @@
 //        get_temperature(), get_dewpoint(), get_humidity(),
 //        get_windchill(), get_heatindex(), get_pressure(),
 //        get_errors()
+//    Check get_errors() -- If no errors, this property is null.
 //
-//    Check get_errors(). If no errors, this property is null.
-//
-//    Mark Woodward, Apr 2018
-//    Oklahoma City
+//    Mark Woodward, Oklahoma City
+//    version 1 - Original, 2002
+//    version 2 - Updated to parse METAR from XML file, Jun 2017
+//    version 3 - Converted to class object, Jun 2017
+//    version 4 - Reorganized into a proper class structure, Jun 2017
 
 
 class Weather {
